@@ -1,0 +1,3 @@
+all 3d geometries are related to the "Elev" attribute and the geometry field of the dataframe
+contours must be single parts
+polygons should not have holes. Polygons are exported as lines not as polygons due to the fact that Vtks were designed for convex polygons having poor performance with geospatial polygons.
